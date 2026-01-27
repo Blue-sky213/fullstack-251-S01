@@ -1,0 +1,30 @@
+{
+  "name": "fullstack-251-s01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write *.js",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blue-sky213/fullstack-251-S01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blue-sky213/fullstack-251-S01/issues"
+  },
+  "homepage": "https://github.com/Blue-sky213/fullstack-251-S01#readme",
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
